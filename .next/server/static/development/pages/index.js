@@ -88,53 +88,62 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/index.tsx":
+/*!*************************!*\
+  !*** ./pages/index.tsx ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\aadit\\Desktop\\whatsNext\\pages\\index.js";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return App; });
+/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core/Container */ "@material-ui/core/Container");
+/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\aadit\\Desktop\\whatsNext\\pages\\index.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Index = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 2
-  },
-  __self: undefined
-}, __jsx("p", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 3
-  },
-  __self: undefined
-}, "Hello next.js"));
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+function App() {
+  return __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    maxWidth: "lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, "Hello Next.js \uD83D\uDC4B");
+}
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 4:
+/*!*******************************!*\
+  !*** multi ./pages/index.tsx ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\aadit\Desktop\whatsNext\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\aadit\Desktop\whatsNext\pages\index.tsx */"./pages/index.tsx");
 
+
+/***/ }),
+
+/***/ "@material-ui/core/Container":
+/*!**********************************************!*\
+  !*** external "@material-ui/core/Container" ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Container");
 
 /***/ }),
 
